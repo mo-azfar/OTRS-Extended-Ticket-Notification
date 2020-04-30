@@ -3,7 +3,12 @@
 - This module extend default Ticket Notification module to send notification to agent via Telegram / Slack / RocketChat.
 - **Require CustomMessage API**  
 
-OTRS: 
+
+OTRS Agent Preferences (Profile) : 
+
+[![Capture.png](https://i.postimg.cc/VN5DRSrX/Capture.png)](https://postimg.cc/4Kk64x13)  
+
+OTRS Ticket Notification: 
 
 [![Capture.png](https://i.postimg.cc/SxTMDnq7/Capture.png)](https://postimg.cc/jDf2jdDL)
 
