@@ -36,7 +36,7 @@
         <Description Translatable="1">Defines the RocketChatAgent webhook url</Description>
         <Navigation>RocketChatAgent::WebhookURL</Navigation>
         <Value>
-            <Item ValueType="String" ValueRegex="">ROCKETCHAT_OUTGOING_WEBHOOK_HERE</Item>
+            <Item ValueType="String" ValueRegex="">ROCKETCHAT_INCOMING_WEBHOOK_HERE</Item>
         </Value>
     </Setting>
     <Setting Name="RocketChatAgent::UsernameField" Required="0" Valid="1">
