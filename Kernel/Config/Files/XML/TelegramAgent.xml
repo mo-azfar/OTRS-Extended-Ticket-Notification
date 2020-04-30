@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otrs_config version="2.0" init="Config">
+    <Setting Name="Notification::Transport###TelegramAgent" Required="0" Valid="1">
+        <Description Translatable="1">Defines all the parameters for this notification transport.</Description>
+        <Navigation>Frontend::Admin::View::NotificationEvent</Navigation>
+        <Value>
+            <Hash>
+                <Item Key="Module">Kernel::System::Ticket::Event::NotificationEvent::Transport::TelegramAgent</Item>
+                <Item Key="Name" Translatable="1">Telegram Agent</Item>
+                <Item Key="Icon">fa fa-mobile</Item>
+                <Item Key="Prio">123</Item>
+                <Item Key="IsOTRSBusinessTransport">0</Item>
+                <Item Key="AgentEnabledByDefault">0</Item>
+            </Hash>
+        </Value>
+    </Setting>
+    <Setting Name="TelegramAgent::Token" Required="0" Valid="1">
+        <Description Translatable="1">Defines the token use to send telegram notification</Description>
+        <Navigation>TelegramAgent::Token</Navigation>
+        <Value>
+            <Item ValueType="String" ValueRegex="">TELEGRAM_BOT_TOKEN_HERE</Item>
+        </Value>
+    </Setting>
+    <Setting Name="TelegramAgent::ChatIDField" Required="0" Valid="1">
+        <Description Translatable="1">Defines the field that hold the Telegarm ChatID for Agent</Description>
+        <Navigation>TelegramAgent::ChatIDField</Navigation>
+        <Value>
+            <Item ValueType="String" ValueRegex="">UserComment</Item>
+        </Value>
+    </Setting>
+</otrs_config>
