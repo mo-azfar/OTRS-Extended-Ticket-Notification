@@ -9,16 +9,25 @@
 
 3. Update the field name that holds the telegram chat id for agent at System Configuration > TelegramAgent::ChatIDField  
 
+Default: UserTelegramChatID  
+
+4. Update the field name that holds the telegram chat id for customer user at System Configuration > TelegramAgent::CustomerUserChatIDField
+
 Default: UserComment  
 		
-4. Obtain the telegram chat_id for the agent, and update it into Agent Profile in 'Comment' field (as per no 3). 	
+5. Obtain the telegram chat_id for the agent, and update it into Agent Profile in 'Telegram Chat ID' field (as per no 3). 	
 
 - An agent must start the conversation with the created telegram bot (no 1) first by using telegram.  
 - By using  https://api.telegram.org/bot<TOKEN>/getUpdates , we can obtain the chat_id of the agent.  
 
-5. Create a new Ticket Notification  
+6. Create a new Ticket Notification  
 
 - Select 'Telegram Agent' as notification method.  
-- Only supported recipient type : Agent  
+- Supported recipient type : Agent, Customer, 3rd Party Chat ID (non registered user/customer)  
 
 [![download-1.png](https://i.postimg.cc/QNf20txj/download-1.png)](https://postimg.cc/14N7zyqd)
+
+
+6. To test the connection to telegram,
+
+	shell > curl -X GET https://api.telegram.org/bot<TELEGRAM_BOT_TOKEN>/getMe

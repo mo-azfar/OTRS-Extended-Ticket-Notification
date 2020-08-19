@@ -2,3 +2,11 @@
 # the enclosed file COPYING for license information (GPL). If you
 # did not receive this file, see https://www.gnu.org/licenses/gpl-3.0.tx
 # --
+
+<p class="FieldExplanation">[% Translate("This method sends the notification to your Telegram") | html %]</p>
+
+<label for="RecipientTelegramChatID">[% Translate("Recipient Telegram Chat ID") | html %]: </label>
+<div class="Field">
+    <input type="text" name="RecipientTelegramChatID" id="RecipientTelegramChatID" class="W50pc" value="[% Data.RecipientTelegramChatID | html %]"/>
+</div>
+<div class="Clear"></div>
