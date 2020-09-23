@@ -12,7 +12,7 @@ OTRS Ticket Notification:
 
 [![Capture.png](https://i.postimg.cc/SxTMDnq7/Capture.png)](https://postimg.cc/jDf2jdDL)
 
-Telegram Users: Read https://github.com/mo-azfar/OTRS-Ticket-Notification-To-Telegram-RocketChat-Slack-User/blob/master/TELEGRAMAGENT.md
+Telegram Users: [README](TELEGRAMAGENT.md) 
 
 [![download-1.png](https://i.postimg.cc/QNf20txj/download-1.png)](https://postimg.cc/14N7zyqd)  
 
