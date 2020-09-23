@@ -12,14 +12,14 @@ OTRS Ticket Notification:
 
 [![Capture.png](https://i.postimg.cc/SxTMDnq7/Capture.png)](https://postimg.cc/jDf2jdDL)
 
-Telegram Users:  
+Telegram Users: Read https://github.com/mo-azfar/OTRS-Ticket-Notification-To-Telegram-RocketChat-Slack-User/blob/master/TELEGRAMAGENT.md
 
 [![download-1.png](https://i.postimg.cc/QNf20txj/download-1.png)](https://postimg.cc/14N7zyqd)  
 
-Slack Users:  
+Slack Users:  Read https://github.com/mo-azfar/OTRS-Ticket-Notification-To-Telegram-RocketChat-Slack-User/blob/master/SLACKAGENT.md
 
 [![s6.png](https://i.postimg.cc/QN4pBpkN/s6.png)](https://postimg.cc/dDC7pZxg)  
 
-RocketChat Users :  
+RocketChat Users :   Read https://github.com/mo-azfar/OTRS-Ticket-Notification-To-Telegram-RocketChat-Slack-User/blob/master/ROCKETCHATAGENT.md
 
 [![rcdm1.png](https://i.postimg.cc/W1ZTmgNN/rcdm1.png)](https://postimg.cc/HrTqdJ8R)  
