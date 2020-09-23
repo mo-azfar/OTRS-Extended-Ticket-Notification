@@ -1,6 +1,6 @@
 # OTRS-Ticket-Notification-To-Telegram-Users  
 - Built for OTRS CE v 6.0.x  
-- This module extend Ticket Notification module to send notification to Telegram users (agent).  
+- This module extend Ticket Notification module to send notification to Telegram users (agent / customer / non-users).  
 - **Require CustomMessage API**  
 
 1. A telegram bot must be created by chat with @FatherBot and obtain the token via Telegram.  
