@@ -4,6 +4,9 @@
 - **Require CustomMessage API https://github.com/mo-azfar/OTRS-CustomMessage-API**  
 - **Telegram transport available upon request**
 
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/MohdAzfar?locale.x=en_US)
+
+
 OTRS Agent Preferences (Profile) : 
 
 [![Capture.png](https://i.postimg.cc/VN5DRSrX/Capture.png)](https://postimg.cc/4Kk64x13)  
