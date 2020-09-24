@@ -1,10 +1,12 @@
 # OTRS-Ticket-Notification-To-Telegram-RocketChat-Slack-User
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/MohdAzfar?locale.x=en_US)
+
+
 - Built for OTRS CE v 6.0.x
 - This module extend default Ticket Notification module to send notification to agent via [Telegram](TELEGRAMAGENT.md) / [Slack](SLACKAGENT.md) / [RocketChat](ROCKETCHATAGENT.md).
 - **Require CustomMessage API https://github.com/mo-azfar/OTRS-CustomMessage-API**  
 - **Telegram transport available upon request**
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/MohdAzfar?locale.x=en_US)
 
 
 OTRS Agent Preferences (Profile) : 
