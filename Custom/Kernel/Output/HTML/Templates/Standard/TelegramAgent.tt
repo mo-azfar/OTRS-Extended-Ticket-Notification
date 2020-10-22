@@ -5,7 +5,7 @@
 
 <p class="FieldExplanation">[% Translate("This method sends the notification to your Telegram") | html %]</p>
 
-<label for="RecipientTelegramChatID">[% Translate("Recipient Telegram Chat ID") | html %]: </label>
+<label for="RecipientTelegramChatID">[% Translate("Recipient Telegram Chat ID (Only Support Single Address)") | html %]: </label>
 <div class="Field">
     <input type="text" name="RecipientTelegramChatID" id="RecipientTelegramChatID" class="W50pc" value="[% Data.RecipientTelegramChatID | html %]"/>
 </div>
