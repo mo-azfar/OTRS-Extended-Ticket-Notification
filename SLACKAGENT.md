@@ -6,19 +6,18 @@
 1. Create New Slack App. Reference: https://api.slack.com/apps
 
 
-2. Create Incoming Webhook in your App above. (Add features and functionality)
+2. Create incoming webhooks via Your App Name > Add features and functionality > Create Incoming Webhook > Activate Incoming Webhooks
+
+3. Create Bots via Your App Name > Add features and functionality > Bots
+
+4. Manage you app permissions via in Your App Name > Add features and functionality > Permissions  
 
 
-3. Create Bots in your App above. (Add features and functionality)
-
-
-4. Manage Permissions in Your App above. (Add features and functionality)
-
-- Get your Bot User OAuth Access Token
+- Here you can get your Bot User OAuth Access Token
 
 [![s3.png](https://i.postimg.cc/sXCWrmrK/s3.png)](https://postimg.cc/SXVRLWjz)
 
-- Configure your Bot Token Scope to have these permissions
+- Here, there is a need to configure your 'Bot Token Scope' to have these permissions
 
 [![s4.png](https://i.postimg.cc/RZc9YLgv/s4.png)](https://postimg.cc/185Lnwxd)
 
