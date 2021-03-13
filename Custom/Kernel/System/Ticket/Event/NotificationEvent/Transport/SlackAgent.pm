@@ -86,6 +86,7 @@ sub SendNotification {
 	my $HttpType = $ConfigObject->Get('HttpType');
 	my $FQDN = $ConfigObject->Get('FQDN');
 	my $ScriptAlias = $ConfigObject->Get('ScriptAlias');
+	my $TicketHook = $ConfigObject->Get('Ticket::Hook');
 	
     #get recipient data
     my %Recipient = %{ $Param{Recipient} };
@@ -150,7 +151,7 @@ sub SendNotification {
 							Token    => $Token,
 							SlackMemberID  => $RecipientMemberID,	
 							TicketURL	=>	$TicketURL,
-							TicketNumber	=>	$Ticket{TicketNumber},
+							TicketNumber	=>	$TicketHook.$Ticket{TicketNumber},
 							Message	=>	$Notification{Body},
 							Created	=> $TicketDateTimeString,
 							Queue	=> $Ticket{Queue},
