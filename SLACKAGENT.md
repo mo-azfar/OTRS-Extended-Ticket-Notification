@@ -19,7 +19,7 @@
 
 - Here, there is a need to configure your 'Bot Token Scope' to have these permissions
 
-[![s4.png](https://i.postimg.cc/RZc9YLgv/s4.png)](https://postimg.cc/185Lnwxd)
+[![bot-scope.png](https://i.postimg.cc/VNpyqDBJ/bot-scope.png)](https://postimg.cc/qtsZ0cFr)
 
 
 5. Update the Slack Bot User OAuth Access Token at System Configuration > SlackAgent::BotToken  
