@@ -45,4 +45,4 @@ Default: UserSlackMemberID
 - Select 'Slack Agent' as notification method.  
 - Only supported recipient type : Agent  
 
-[![slack.png](https://i.postimg.cc/63TG456r/slack.png)](https://postimg.cc/TLMPZxD1)
+[![s6.png](https://i.postimg.cc/QN4pBpkN/s6.png)](https://postimg.cc/dDC7pZxg)
