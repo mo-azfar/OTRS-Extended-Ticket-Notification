@@ -116,6 +116,11 @@ sub SendNotification {
 	my $TicketDateTimeString = $TicketDateTimeObject->Format( Format => '%Y-%m-%d %H:%M' );
     my $TicketURL = $HttpType.'://'.$FQDN.'/'.$ScriptAlias.'index.pl?Action=AgentTicketPrint;TicketID='.$TicketID;
      
+     	if ( !$Ticket{Service} )
+	{
+		$Ticket{Service} = "N/A";
+	}
+     
 	# For Asynchronous sending
 	my $TaskName = substr "Recipient".rand().$RecipientMemberID, 0, 255;
 	
